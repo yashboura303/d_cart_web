@@ -1,0 +1,143 @@
+/*
+--------------------------------------------
+MAin
+____________________________________________
+*/
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+html {
+    background-color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+/*
+--------------------------------------------
+Navigation Bar
+____________________________________________
+*/
+.icon  {
+    font-size: 64px;
+}
+
+.nav-bar {
+    background-color: #2874f0;
+    height: 5em;
+    box-shadow: 0px 3px 10px #888888;
+}
+
+.nav-bar a {
+    color: rgb(253, 216, 4);
+}
+
+.nav-logo i,
+h1 {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.nav-logo {
+    float: left;
+}
+.nav-logo h1 {
+    color: #fff;
+   padding-top: 10px;
+}
+.nav-logo i {
+    color: rgb(241, 179, 7);
+    float: right;
+}
+
+.nav-options {
+    padding-top: 9px;
+    float: right;
+}
+
+.nav-options li {
+
+    list-style: none;
+    display: inline-block;
+    padding: 15px 15px;
+    font-size: 1.4em;
+}
+
+a{
+    text-decoration: none;
+}
+
+.options a:hover,
+.options a:active {
+    border-bottom: 2px solid #5a93ee;
+    padding-bottom: 7px;
+    color: rgb(238, 255, 0)
+
+}
+
+
+/*
+--------------------------------------------
+Footer
+____________________________________________
+*/
+footer{
+    background-color: #1e272e;
+    height: 6.2rem;
+    color: #fff;
+}
+footer p{
+    text-align: center;
+}
+footer .icon{
+    padding-top: 5px;
+    font-size: 16px;
+    padding-left: 5px;
+}
+footer h1{
+    padding-top: 10px;
+    font-size: 90%;
+}
+footer a{
+    color: #fff;
+}
+/*
+--------------------------------------------
+Products
+____________________________________________
+*/
+.container-1{
+    box-sizing: border-box;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    margin: 0px 50px;
+    /* justify-content:center; */
+    align-items: center;
+}
+.box-1{
+    margin: 30px 0;
+}
+
+.div-title h2,img{
+    padding-bottom: 15px;
+
+}
+.div-title img{
+    text-align: center;
+}
+
+.btn-cart{
+    color: #fff;
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #2874f0;
+    text-decoration: none;
+    border: 2px solid #2056ad;
+    border-radius: 15px 50px;
+    padding:14px;
+}
+.btn-cart:hover{
+    background-color: #4583e7;
+}
+

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>D-Cart</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="nav-logo">
+                <a href="#">
+                    <i class="icon ion-md-cart" size="large"></i>
+                    <h1>D-Kart</h1>
+                </a>
+            </div>
+            <div class="nav-options">
+                <ul class="options">
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Logout</a></li>
+                    <li><a href="#">Sign-Up</a></li>
+                    <li><a href="#">Cart</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="products-all">
+        <div class="container-1 ">
+            <div class="box-1">
+                <div class="div-title">
+                    <h2>Product Title</h2>
+                    <img src="./img/art-artistic-bells-318238.jpg" alt="" height="250" width="250">
+                </div>
+                <div class="div-body">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                    </p>
+                </div>
+                <a class="btn-cart" href="#"> Add To Cart</a>
+            </div>
+            <div class="box-1">
+                <div class="div-title">
+                    <h2>Product Title</h2>
+                    <img src="./img/background-brown-colors-908297.jpg" alt="" height="250" width="250">
+                </div>
+                <div class="div-body">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                    </p>
+                </div>
+                <a class="btn-cart" href="#"> Add To Cart</a>
+            </div>
+            <div class="box-1">
+                <div class="div-title">
+                    <h2>Product Title</h2>
+                    <img src="./img/background-pine-texture-82256.jpg" alt="" height="250" width="250">
+                </div>
+                <div class="div-body">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                    </p>
+                </div>
+                <a class="btn-cart" href="#"> Add To Cart</a>
+            </div>
+            <div class="box-1">
+                <div class="div-title">
+                    <h2>Product Title</h2>
+                    <img src="./img/blur-colors-effect-9374.jpg" alt="" height="250" width="250">
+                </div>
+                <div class="div-body">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                    </p>
+                </div>
+                <a class="btn-cart" href="#"> Add To Cart</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <a href="#">
+                <i class="icon ion-md-cart" size="small"></i>
+                <h1>D-Kart</h1>
+            </a>
+        </div>
+        <p>
+            Website made by Yash Boura using Python,Django Framework.
+        </p>
+        <br>
+        <p>&copy; 2019 D-Kart</p>
+    </footer>
+</body>
+
+</html>
+<!-- <div class="album py-5 bg-light">
+        <div class="container">
+    
+          <div class="row">
+              {% for product in products.all %}
+            <div class="col-md-4" >
+              <div class="card mb-4 shadow-sm" >
+                   {{product.title}}
+                <img  class = "card-img-top" src="{{product.image.url}}" height="200" width="40" />
+                <div class="card-body">
+                  <p class="card-text"> {{ product.description}}</p>
+                   Price-{{product.price}}
+
+      <a href="{% url 'add_cart'  product_id=product.id %}">
+                <button type="button" class="btn btn-success">Add To Cart</button>
+                </a>
+                </div>
+              </div>
+            </div>
+            {%endfor%}
+          </div>
+        </div>
+      </div> -->
