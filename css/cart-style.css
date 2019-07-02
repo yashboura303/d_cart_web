@@ -115,6 +115,7 @@ ____________________________________________
     padding:0px 20px;
     box-sizing: border-box;
     padding-top: 10px;
+    flex-direction:column;
     display: flex;
     flex-wrap:wrap;
     justify-content:space-between;
@@ -130,7 +131,10 @@ ____________________________________________
     box-shadow: 3px 3px 10px #888888;
 }
 .box-1:hover{
-    transform:scale(1.01);
+    transform:scale(1.003);
+}
+.div-title h2{
+    font-size: 1.2rem;
 }
 
 .div-title h2,img{
@@ -141,17 +145,44 @@ ____________________________________________
     text-align: center;
 }
 
-.btn-cart{
+.btn-delete{
     color: #fff;
     display: inline-block;
     margin-top: 10px;
-    background-color: #2874f0;
+    background-color: #ef3939;
     text-decoration: none;
-    border: 2px solid #2056ad;
+    border: 2px solid #b31313;
     border-radius: 15px 50px;
-    padding:14px;
+    padding:4px 10px;
 }
-.btn-cart:hover{
-    background-color: #4583e7;
+.btn-delete:hover{
+    background-color: #f35151;
+}
+.total{
+    text-align: center;
+    padding:10px 0 40px 0;
+}
+.total-price{
+    text-align: center;
+    color: rgb(253, 216, 4);
+    font-size: 1.4em;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #2874f0;
+    border-radius: 10px 10px;
+    padding :10px 5px;
+}
+.box-left{
+    width:45%;
+    padding-right: 10px;
+    float:left;
+    border-right: 2px solid #dcd7d7;
+    /*border-hi*/
 }
 
+.box-right{
+    width:55%;
+    padding-top:10px;
+    float:right;
+    text-align:left;
+    padding-left:10px;
+}
