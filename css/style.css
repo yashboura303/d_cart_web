@@ -12,6 +12,21 @@ html {
     background-color: #fff;
     font-family: 'Ubuntu', sans-serif;
 }
+
+/*
+--------------------------------------------
+Media Query
+____________________________________________
+*/
+@media screen and (max-width: 600px)
+{
+    .nav-options{
+        display: none;
+    }
+    .container-1{
+        flex-direction: column;
+    }
+}
 /*
 --------------------------------------------
 Navigation Bar
@@ -22,11 +37,12 @@ ____________________________________________
 }
 
 .nav-bar {
-
-
+    z-index: 99;
+    position: fixed;
     background-color: #2874f0;
     height: 5em;
     box-shadow: 0px 3px 10px #888888;
+    width: 100%;
 }
 
 .nav-bar a {
@@ -111,6 +127,9 @@ footer a{
 Products
 ____________________________________________
 */
+.products-all{
+    padding-top: 90px;
+}
 .container-1{
     padding:0px 20px;
     box-sizing: border-box;
@@ -118,9 +137,15 @@ ____________________________________________
     display: flex;
     flex-wrap:wrap;
     justify-content:space-between;
-/*     margin: 0px 50px; */
-/*     justify-content:space-around; */
+    
 
+
+}
+.box-1 div {
+    text-align: center;
+}
+.box-1 a{
+    /* margin: auto; */
 }
 .box-1{
     flex-basis:30%;
@@ -141,7 +166,7 @@ ____________________________________________
     text-align: center;
 }
 
-.btn-cart{
+.btn-cart,input[type=submit]{
     color: #fff;
     display: inline-block;
     margin-top: 10px;
@@ -155,3 +180,55 @@ ____________________________________________
     background-color: #4583e7;
 }
 
+/*
+--------------------------------------------
+Forms
+____________________________________________
+*/
+
+.section-form h2{
+    text-align: center;
+    font-size: 2.2rem;
+    color: #2056ad;
+    border-bottom: 2px solid  rgb(253, 216, 4);
+    padding: 10px 0px;
+}
+input {
+    width: 70%;
+    /* padding: 0px 20px; */
+}
+input[type=text],input[type=password] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.div-form p{
+    padding:10px 0px;
+}
+span{
+    display: block;
+    /* padding: 15px 0px 10px 0px; */
+}
+
+input[type=submit]{
+    width: 10%;
+    text-align: center;
+}
+input[type=textbox]{
+    
+    height: 150px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+.span-radio,.span-checkbox{
+    display: inline;
+    padding:0px;
+}
+input[type="radio"] {
+    padding-top: 3px;
+  }
