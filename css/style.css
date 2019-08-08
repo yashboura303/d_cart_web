@@ -194,6 +194,7 @@ ____________________________________________
     padding: 10px 0px;
 }
 input {
+/*     float:right; */
     width: 70%;
     /* padding: 0px 20px; */
 }
@@ -208,6 +209,7 @@ input[type=text],input[type=password] {
 }
 span{
     display: block;
+/*     float:left */
     /* padding: 15px 0px 10px 0px; */
 }
 
@@ -226,9 +228,12 @@ input[type=textbox]{
     resize: none;
 }
 .span-radio,.span-checkbox{
-    display: inline;
+/*     display: inline; */
+    float:left;
     padding:0px;
 }
-input[type="radio"] {
+input[type="radio"],input[type="checkbox"] {
     padding-top: 3px;
+    margin-left:0;
+    float:right;
   }
